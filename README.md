@@ -15,6 +15,7 @@ JMT approach is instead of custom template language it aims to use the all capab
 **Example Template (Model.jmt):**
 
     @@imports (
+    io.vertx.core.json.JsonObject
     java.util.Map
     java.util.Set
     )
