@@ -3,6 +3,7 @@
 JMT is a java template solution like turning a simple template code to java code.
 
 You can import java packages with @@import statement and you can use @@args statement for output class contstructors in template.
+
 Therefore, there are not any restrictions in terms of flexibility and speed. In background all of java classes.
 Alternatively freemarker,jtwig,thymeleaf,velocity,mustache etc .. there are many template solutions in the world.
 Mostly custom template language is used in this solutions.
