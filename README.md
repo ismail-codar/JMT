@@ -90,8 +90,6 @@ By default, such as JSP using with <% %> java code can be injected. If desired, 
 
 2- Add plugin definition in your pom.xml like the following example.
 
-3- You must add output classes to your class path in your project settings and use it like normal java classes.
-
 			<plugin>
 				<groupId>org.jmt</groupId>
 				<artifactId>jmt-maven-plugin</artifactId>
@@ -115,3 +113,4 @@ By default, such as JSP using with <% %> java code can be injected. If desired, 
 				</executions>
 			</plugin>
 
+3- You must add output classes to your class path in your project settings and use it like normal java classes.
