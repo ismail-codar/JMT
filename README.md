@@ -41,5 +41,4 @@ JMT approach is instead of custom template language it aims to use the all capab
 
 **About the structure of the templates**
 
-By default, such as JSP using with <% %> java code can be injected.
-If desired, tag delimiters can be change. Beginning of the template @@tags {%|%} as a definition for using {% %} tag delimeters.
+By default, such as JSP using with <% %> java code can be injected. If desired, tag delimiters can be change. Beginning of the template @@tags {%|%} as a definition for using {% %} tag delimeters.
