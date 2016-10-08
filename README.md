@@ -1,4 +1,5 @@
 **Background**
+
 JMT is a java template solution like turning a simple template code to java code.
 
 You can import java packages with @@import statement and you can use @@args statement for output class contstructors in template.
@@ -39,5 +40,6 @@ JMT approach is instead of custom template language it aims to use the all capab
     }
 
 **About the structure of the templates**
+
 By default, such as JSP using with <% %> java code can be injected.
 If desired, tag delimiters can be change. Beginning of the template @@tags {%|%} as a definition for using {% %} tag delimeters.
