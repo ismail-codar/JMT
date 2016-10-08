@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/jmt/" targetNamespace="http://www.example.org/jmt/">
+    
+    <complexType name="JmtType">
+    	<sequence>
+    		<element name="source" type="string"></element>
+    		<element name="filter" type="string"></element>
+    		<element name="target" type="string"></element>
+
+
+    	</sequence>
+    </complexType>
+
+
+
+    <element name="configuration" type="tns:ConfigurationType"></element>
+    
+    <complexType name="ConfigurationType">
+    	<sequence>
+    		<element name="jmt" type="tns:JmtType"></element>
+    	</sequence>
+    </complexType>
+</schema>
