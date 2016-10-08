@@ -12,7 +12,7 @@ However, developers are forced to learn a template language. Being trapped in th
 
 JMT approach is instead of custom template language it aims to use the all capabilities of Java.
 
-**Example Template (Model.jmt):**
+**Example template for converting vertx JsonObject to java class (Model.jmt):**
 
     @@imports (
     io.vertx.core.json.JsonObject
